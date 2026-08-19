@@ -1,0 +1,139 @@
+/*
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:flex-start;
+    gap:20px;
+    border: 1px solid black;
+    flex-wrap: nowrap;
+    height: 100vh;
+}
+.child{
+    display: flex;
+    justify-content:flex-end;
+    width: 100px;
+    align-items: center;
+    border: 1px solid black;
+}
+    
+.parent{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    grid-template-rows:20px,20px;
+}
+
+
+.parent{
+    border:5px solid black;
+    height:500px;
+    width:500px;
+    text-align:center;
+}
+
+
+nav{
+    background-color: darkslategray;
+    font-weight: bold;
+    color:white
+}
+.nav-link{
+    color:white;
+}
+.navbar-brand{
+    color:white;
+}
+
+
+.carousel-caption{
+    color:lightgrey;
+}
+
+
+
+
+body{
+    height:100vh;
+}
+div[class="card"]{
+    display: flex;
+    height:50%;
+    flex-direction: row;
+    gap:20px;
+
+
+}
+div[class="card"]>div{
+    margin-top: 40px;
+    text-align: center;
+    height:auto;
+    transition: 0.4s;
+
+    
+    
+}
+
+
+div[class="card"]>div>div:first-child{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+div[class="card"]>div>div:last-child{
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 40px;
+}
+
+
+div[class="card"]>div:hover{
+    border:2px solid grey;
+    background-color: beige;
+    color:gray;
+    transform: scale(1.1);
+}
+
+*/
+.heading{
+    background-color:grey;
+    color: white;
+}
+.heading>h2{
+    font-weight: bold;
+}
+.heading>h4{
+    font-weight: bold;
+}
+
+
+
+.inputarea{
+    padding:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
+}
+
+.inputarea>div{
+    flex:1;
+    text-align:center;
+}
+div>textarea{
+    width: 100%;
+    height: 50vh;
+    border: 5px solid black;
+    font-weight: bold;
+    font-size: 20px;
+}
+div>p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.clear{
+    display: flex;
+    justify-content: center;
+    
+}
